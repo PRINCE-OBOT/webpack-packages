@@ -5,11 +5,7 @@ const webpack = require('webpack');
 module.exports = merge(common, {
   mode: 'development',
   devServer: {
-    watchFiles: [
-      './src/homepage/template_homepage.html',
-      './src/homepage/admin/admin-dashboard/template_admin-dashboard.html',
-      './src/homepage/admin/admin-login/template_admin-login.html',
-    ],
+    watchFiles: ['./src/*.html'],
     hot: true,
   },
   devtool: 'inline-source-map',
