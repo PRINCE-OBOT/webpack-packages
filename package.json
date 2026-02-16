@@ -1,7 +1,7 @@
 {
-  "name": "Akwapolycoop Loan Tracker",
+  "name": "name",
   "version": "1.0.0",
-  "description": "Loan Tracking System to help borrowers monitors how their loan is accumulated",
+  "description": "description",
   "lint-staged": {
     "src/**/*.js": [
       "eslint --fix",
